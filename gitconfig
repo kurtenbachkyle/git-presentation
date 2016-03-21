@@ -29,8 +29,8 @@
 [core]
         excludesfile = /home/kyle/.gitignore_global
 [user]
-        # name = Kyle Kurtenbach
-        # email = kkurtenbach@emmisolutions.com
+        # name = Your name
+        # email = Your email
 [merge]
         tool = vimdiff
 [mergetool]
