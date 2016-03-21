@@ -7,12 +7,9 @@
         # if vim gives a non zero exit stop displaying diffs
         trustExitCode = true
 [alias]
-        d = difftool
-
-        dc = difftool --cached
-
-        ssd = !git stash save "dev `date`"
-
+        #
+        # logging and status
+        #
         #lg = log --oneline --decorate --all --graph -200
         lg = log --decorate --pretty=format:'%C(auto)%h%d %s %Cgreen %an %Cgreen' --graph --all 
         gl = log --decorate --pretty=format:'%C(auto)%h%d %s %Cgreen %an %Cgreen' --graph --all 
@@ -21,9 +18,24 @@
 
         st = status
 
+        #
+        # difftool
+        #
+        d = difftool
+
+        dc = difftool --cached
+
+        ssd = !git stash save "dev `date`"
+
+        #
+        # goto root directory
+        #
         #for cd `git pwd`
         pwd = rev-parse --show-toplevel
 
+        #
+        # remote work
+        #
         ff-local=!git remote show origin | awk '/out of date/ {print \"git fetch origin \" $1 \":\" $1}'
 
 [core]

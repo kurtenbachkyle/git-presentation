@@ -1,9 +1,12 @@
 What's going on in git?
   Using git log
   what's a good commit message look like?
+   http://goo.gl/xwWq
   decorating git log
   what's a git alias?
     view detailed alias information with `export GIT_TRACE=1`
   git lg
 
+Merging
 
+  fast forward merges
