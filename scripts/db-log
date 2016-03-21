@@ -1,0 +1,4 @@
+#!/bin/bash
+while true; do
+        inotifywait -e close -e delete '../.git'
+done
