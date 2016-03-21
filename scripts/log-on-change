@@ -2,6 +2,5 @@
 while true; do
         inotifywait -q -e close '../.git'
         clear
-        date
         git lg
 done
