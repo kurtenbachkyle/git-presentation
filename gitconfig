@@ -33,6 +33,7 @@
         # email = Your email
 [merge]
         tool = vimdiff
+        summary = true
 [mergetool]
         prompt = false
         trustExitCode = true
