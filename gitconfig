@@ -1,0 +1,44 @@
+# vim: set filetype=gitconfig :
+[diff]
+        tool = vimdiff
+[difftool]
+        # don't ask before you display the next diff
+        prompt = false
+        # if vim gives a non zero exit stop displaying diffs
+        trustExitCode = true
+[alias]
+        d = difftool
+
+        dc = difftool --cached
+
+        ssd = !git stash save "dev `date`"
+
+        #lg = log --oneline --decorate --all --graph -200
+        lg = log --decorate --pretty=format:'%C(auto)%h%d %s %Cgreen %an %Cgreen' --graph --all 
+        gl = log --decorate --pretty=format:'%C(auto)%h%d %s %Cgreen %an %Cgreen' --graph --all 
+
+        s = status -s
+
+        st = status
+
+        #for cd `git pwd`
+        pwd = rev-parse --show-toplevel
+
+        ff-local=!git remote show origin | awk '/out of date/ {print \"git fetch origin \" $1 \":\" $1}'
+
+[core]
+        excludesfile = /home/kyle/.gitignore_global
+[user]
+        # name = Kyle Kurtenbach
+        # email = kkurtenbach@emmisolutions.com
+[merge]
+        tool = vimdiff
+[mergetool]
+        prompt = false
+        trustExitCode = true
+[status]
+        relativePaths = true
+[push]
+        # the default since git 2.0
+        # it makes so much more sense
+        default = simple
