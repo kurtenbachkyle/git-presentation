@@ -1,0 +1,4 @@
+#!/bin/bash
+while true; do
+        inotifywait -e move -e delete -e create '../.git'
+done
