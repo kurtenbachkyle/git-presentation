@@ -2,7 +2,7 @@
 clear
 git log --decorate --pretty=format:'%C(auto)%h%d %s %Cgreen %an %Cgreen' --graph --all
 while true; do
-        inotifywait -q -e close '../.git'
+        inotifywait -q -e close "$(git pwd)/.git"
         clear
         git log --decorate --pretty=format:'%C(auto)%h%d %s %Cgreen %an %Cgreen' --graph --all
 done
