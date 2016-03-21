@@ -1,0 +1,6 @@
+#!/bin/bash
+while true; do
+        inotifywait -q -e modify '../.git'
+        clear
+        git lg
+done
