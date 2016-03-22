@@ -1,3 +1,15 @@
+init
+  What version of git are you running?
+    Always use the latest possible
+    Get bash completion
+  A case for using the command line
+  Resources for learning about git
+    man git
+    man 7 giteveryday
+    man git-config
+    https://git-scm.com/book/en/v2
+
+
 What's going on in git?
   Using git log
   what's a good commit message look like?
