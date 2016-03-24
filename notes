@@ -3,6 +3,9 @@ init
     Always use the latest possible
     Get bash completion
   A case for using the command line
+    man pages are right there where you are
+    knowledge is portable to other unix machines
+    interface isn't opinionated about usecase
   Resources for learning about git
     man git
     man 7 giteveryday
@@ -12,12 +15,12 @@ init
 
 What's going on in git?
   Using git log
+    decorating git log
+    what's a git alias?
+      view detailed alias information with `export GIT_TRACE=1`
+    git lg
   what's a good commit message look like?
    http://goo.gl/xwWq
-  decorating git log
-  what's a git alias?
-    view detailed alias information with `export GIT_TRACE=1`
-  git lg
 
 Merging
 
