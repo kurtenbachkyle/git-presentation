@@ -1,8 +1,8 @@
 #!/bin/bash
 clear
-git --no-pager log --decorate --pretty=format:'%C(auto)%h%d %s %Cgreen %an %Cgreen' --graph --all
+git --no-pager log --decorate --pretty=format:'%C(auto)%h%d %s %Cgreen %an %Cgreen %Creset' -100 --graph --all
 while true; do
         inotifywait -q -e close "$(git rev-parse --show-toplevel)/.git"
         clear
-        git --no-pager log  --decorate --pretty=format:'%C(auto)%h%d %s %Cgreen %an %Cgreen' --graph --all
+        git --no-pager log  --decorate --pretty=format:'%C(auto)%h%d %s %Cgreen %an %Cgreen %Creset' -100 --graph --all
 done
