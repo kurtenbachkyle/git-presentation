@@ -11,8 +11,7 @@
         # logging and status
         #
         #lg = log --oneline --decorate --all --graph -200
-        lg = log --decorate --pretty=format:'%C(auto)%h%d %s %Cgreen %an %Cgreen' --graph --all 
-        gl = log --decorate --pretty=format:'%C(auto)%h%d %s %Cgreen %an %Cgreen' --graph --all 
+        lg = log --decorate --pretty=format:'%C(auto)%h%d %s %Cgreen %an %Cgreen  %Creset' --graph --all 
 
         s = status -s
 
