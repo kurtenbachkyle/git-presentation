@@ -14,14 +14,30 @@ init
 
 
 What's going on in git?
-  Using git log
+
+  git log
     decorating git log
     what's a git alias?
       view detailed alias information with `export GIT_TRACE=1`
     git lg
-  what's a good commit message look like?
-   http://goo.gl/xwWq
+    git log --follow
 
-Merging
+  git blame
+  
+  before you commit
+    git diff
+    git difftool
+    git difftool --cached
+
+  what's a good commit message look like?
+   http://goo.gl/xwWq 
+
+Other people's code
+
+  fetch
+  fetch
+  fetch
 
   fast forward merges
+    for when you're ahead of a branch
+  merges
