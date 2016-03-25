@@ -1,0 +1,8 @@
+# !/bin/bash
+tmux new-session -d -c /home/kyle/git/com/git-presentation/slides -s 'presentation' 'vim 00'
+tmux new-window -d -t 'presentation'  -c /home/kyle/git/com/git-presentation/slides 'vim 01'
+tmux new-window -d -t 'presentation'  -c /home/kyle/git/com/git-presentation/slides 'vim 02'
+tmux new-window -d -t 'presentation'  -c /home/kyle/git/com/git-presentation/slides 'vim 03'
+tmux new-window -d -t 'presentation'  -c /home/kyle/git/com/git-presentation/slides 'vim 04'
+
+tmux new-window -d -t 'presentation'  -c /home/kyle/git/com/git-presentation/slides 'vim end'

@@ -1,15 +1,15 @@
    +----------------------------------------------------------------------------------------+
    |                                                                                        |
    |                                                                                        |
-   |          Where to learn about git                                                      |
    |                                                                                        |
-   |             - man git                                                                  |
+   |         git status reminds you about these commands but...                             |
    |                                                                                        |
-   |             - man 7 git-everyday                                                       |
+   |                -  git reset is about your HEAD                                         |
    |                                                                                        |
-   |             - man git-config                                                           |
+   |                -  git checkout is about your working tree                              |
+   |                                                   &                                    |
+   |                                                branch                                  |
    |                                                                                        |
-   |             The git book online                                                        |
    |                                                                                        |
    |                                                                                        |
    |                                                                                        |
@@ -17,4 +17,4 @@
    |                                                                                        |
    +----------------------------------------------------------------------------------------+
 
-02
+04
