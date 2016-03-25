@@ -37,9 +37,7 @@ What's going on in git?
 
 Other people's code
 
-  fetch
-  fetch
-  fetch
+  git fetch
 
   fast forward merges
     for when you're ahead of a branch
