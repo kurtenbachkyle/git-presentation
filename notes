@@ -31,6 +31,7 @@ What's going on in git?
 
   git status
 
+
   what's a good commit message look like?
     http://goo.gl/xwWq 
 
@@ -43,3 +44,6 @@ Other people's code
   fast forward merges
     for when you're ahead of a branch
   merges
+
+  reflog
+    the reflog is just another series of commits
