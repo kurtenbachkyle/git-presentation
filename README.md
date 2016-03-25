@@ -6,6 +6,7 @@
   * `man 7 giteveryday`
   * `man 1 git-config`
   * [git book](https://git-scm.com/book/en/v2)
+  * [git commit best practices](http://goo.gl/xwWq)
 
 ### difftools
   * vim, see my [gitconfig](./gitconfig)
