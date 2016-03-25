@@ -29,8 +29,10 @@ What's going on in git?
     git difftool
     git difftool --cached
 
+  git status
+
   what's a good commit message look like?
-   http://goo.gl/xwWq 
+    http://goo.gl/xwWq 
 
 Other people's code
 
